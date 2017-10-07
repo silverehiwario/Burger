@@ -1,0 +1,22 @@
+<h1>Eat-Da-Burger!</h1>
+ <h3>            Waiting to be devoured!</h3>
+{{#each burgerData}}
+  <pre>
+    {{#if this.devoured}}
+      <span>                                                                                                          This burger was eaten: {{burger_name}} </span
+    {{else}}
+      {{burger_name}} 
+      <form action="/update/{{ id }}" method="post">
+      <button type="submit">Devour it!</button>
+    </form> 
+    {{/if}}  
+  </pre>
+{{/each}}
+
+
+
+<form action="/create" method="post">
+  <textarea name="item" rows="2" cols="30"></textarea>
+  <button type="submit">Submit</button>
+  <h4> Enter the burger you want to eat and click the submit button  </h4>
+<form>

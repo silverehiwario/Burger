@@ -1,0 +1,35 @@
+ 
+
+ h1 {
+
+  font-size: 24px;
+  text-align: center;
+  color: #7D3C98;
+
+ }
+
+ #man {
+    background-color: #82E0AA;
+ }
+
+ #pic {
+ 	display: block;
+    margin: auto;
+    padding-top: 30px;
+ 	background-color: #82E0AA;
+ }
+
+ h3 {
+ 	text-align: left;
+ 	margin-left: 10px;
+ }
+
+  
+
+ form {
+ 	text-align: center;
+ }
+
+ button {
+ 	background-color: #D4AC0D;
+ }
